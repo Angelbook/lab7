@@ -1,0 +1,27 @@
+<html>
+<body>
+<script>
+
+var number = prompt("Please enter a number from 0-9999");
+
+var 1000mod = number%1000;
+var thousands = number-1000mod;
+
+var number100 = 1000mod;
+var 100mod = number100-%100;
+var hundreds = number100-100mod;
+
+var number10 = 100mod;
+var 10mod = number10-10%;
+var tens = number10-10mod;
+
+var number1 = 10mod;
+var 1mod = number1-1%;
+var ones = number1-1mod;
+
+console.log("Thousands: " + thousands + "\nHundreds: " + hundreds + "\nTens: " + tens + "\nOnes: " + ones);
+
+
+</script>
+</body>
+</html>
